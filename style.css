@@ -1,0 +1,297 @@
+body{
+  background-color: #000;
+  font-family: "system-ui";
+}
+header{
+  position: relative;
+  width: 100%;
+  height:100%;
+  border: 4px solid grey;
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-left: 0px;
+}
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    padding-left: 40%;
+    position: fixed;
+    top: 0px;
+    left: 0%;
+    opacity: 100%;
+    display: block;
+  }
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a:hover {
+    background-color: #000;
+  } 
+  .active {
+    background-color: #640906;
+  } 
+.container {
+    display: inline-block;
+    text-align: right;
+    margin-top: 70px;
+    margin-left: 550px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    transition: all, 0.5s ease-in-out;
+}
+
+.titlea {
+    margin-top: -450px;
+    margin-left: 100px;
+    color: white;
+    display: inline-block;
+    font-size: larger;
+}
+header .titlea h1 span{
+  background: red;
+  padding: 0px 15px;
+}
+header .titlea h1 {
+margin-bottom: -15px;
+}
+header .titlea .rateing{
+color: yellow;
+font-size: 14px;
+margin-top: 15px;
+}
+header .titlea .subtitle{
+  font-size: 14px;
+  margin-top: 3px;
+}
+header .titlea .subtitle span{
+padding: 0px 5px;
+}
+ header .titlea .btns{
+  margin-top: 5px;
+  display: flex;
+}
+header .titlea .btns button{
+background: rgb(180, 180, 180);
+border: none;
+outline: none;
+padding: 8px 13px;
+cursor: pointer;
+transition: all, 0.5s ease-in-out;
+font-size: 18px;
+}
+header .titlea .btns button:hover{
+  font-size: larger;
+
+}
+header .titlea .btns .b2{
+  background: rgb(255, 255, 255);
+  }
+header .titlea .btns button:hover{
+  background: rgb(94, 231, 255);
+}
+header section .para{
+  font-family: "system-ui";
+  font-size: 15px;
+}
+.topcontainer {
+  width: 300px;
+  height: 200px;
+   background-color: rgb(0, 0, 0);
+   margin-left: -50px;
+   opacity: 70%;
+   text-align: center;
+   display: inline-block;
+}
+table .pics{
+  cursor: pointer;
+ transition: all, 0.5s ease-in-out;
+}
+
+body table .pd{
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin-top: 15px;
+}
+body table .pd .rateing{
+  color: yellow;
+  font-size: 14px;
+  margin-top: -15px;
+}
+.pics {
+  margin: 25px;
+  width: 500px;
+  text-align: center;
+  margin-top: 50px;
+position: relative;
+display: block;
+align-items: center;
+transition: all, 0.5s ease-in-out;
+font-size: 18px;
+}
+.pics:hover{
+  font-size: larger;
+
+}
+.pics1 {
+  margin: 25px;
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+ 
+
+
+.buttom1 {
+top: 0;
+left: 0;
+width: 255px;
+height: 305px;
+position: absolute;
+background: rgba(0, 0, 0, 0.5);
+display: inline-flex;
+justify-content: center;
+align-items: center;
+flex-direction: column-reverse;
+opacity: 0;
+cursor: pointer;
+transition: all, 0.5s ease-in-out;
+font-size: large;
+
+}
+.buttom1:hover{
+  opacity: 1;
+  font-size: larger;
+}
+
+.pics2 {
+  width: 100%;
+  position: relative;
+cursor: pointer;
+transition: all, 0.5s ease-in-out;}
+.buttom2{
+  top: 0;
+left: 0;
+width: 255px;
+height: 305px;
+position: absolute;
+background: rgba(0, 0, 0, 0.5);
+display: inline-flex;
+justify-content: center;
+align-items: center;
+flex-direction: column-reverse;
+opacity: 0;
+cursor: pointer;
+transition: 0.5s;
+margin-left: 255px;
+}
+.buttom2:hover{
+  opacity: 1;
+}
+.pics3 {
+  width: 100%;
+  position: relative;
+cursor: pointer;}
+.buttom3{
+  top: 0;
+left: 0;
+width: 255px;
+height: 305px;
+position: absolute;
+background: rgba(0, 0, 0, 0.5);
+display: inline-flex;
+justify-content: center;
+align-items: center;
+flex-direction: column-reverse;
+opacity: 0;
+cursor: pointer;
+transition: 0.5s;
+margin-left: 510px;
+}
+.buttom3:hover{
+  opacity: 1;
+}
+.pics4 {
+  width: 100%;
+  position: relative;
+cursor: pointer;}
+.buttom4{
+  top: 0;
+left: 0;
+width: 255px;
+height: 305px;
+position: absolute;
+background: rgba(0, 0, 0, 0.5);
+display: inline-flex;
+justify-content: center;
+align-items: center;
+flex-direction: column-reverse;
+opacity: 0;
+cursor: pointer;
+transition: 0.5s;
+margin-left: 765px;
+}
+.buttom4:hover{
+  opacity: 1;
+}
+.pics5 {
+  width: 100%;
+  position: relative;
+cursor: pointer;}
+.buttom5{
+  top: 0;
+left: 0;
+width: 255px;
+height: 305px;
+position: absolute;
+background: rgba(0, 0, 0, 0.5);
+display: inline-flex;
+justify-content: center;
+align-items: center;
+flex-direction: column-reverse;
+opacity: 0;
+cursor: pointer;
+transition: 0.5s;
+margin-left: 1020px;
+}
+.buttom5:hover{
+  opacity: 1;
+}
+
+.poster{
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: left;
+  align-content: center;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+.playnow{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  font-size: 18px;
+  background-color: #640906;
+  color: azure;
+  margin-left: 600px;
+  cursor: pointer;
+}
+.videop{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+
